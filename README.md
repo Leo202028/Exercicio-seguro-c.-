@@ -1,7 +1,6 @@
 # Exercicio-seguro-c.-
 
 
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -64,8 +63,8 @@ int main()
     else if(tipoVeiculo==2 || tipoVeiculo==3){ // carga e caminhonete
         if(tipoSeguro==1) custoCobertura=(valorBase+adicionalCat+adicionalIdade)*
             (0.03*eixos);
-        else if(tipoSeguro==2) custoCobertura=(valorBase+adicionalCat+adicionalIdade)(0.05eixos);
-        else custoCobertura=(valorBase+adicionalCat+adicionalIdade)(0.10eixos);
+        else if(tipoSeguro==2) custoCobertura=(valorBase+adicionalCat+adicionalIdade)*(0.05*eixos);
+        else custoCobertura=(valorBase+adicionalCat+adicionalIdade)*(0.10*eixos);
     }
 
     else if(tipoVeiculo==4){ // moto <1000
@@ -91,3 +90,5 @@ int main()
 
     return 0;
 }
+
+
